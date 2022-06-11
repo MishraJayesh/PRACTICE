@@ -1,0 +1,14 @@
+fruit={"Apple":10,"Orange":20,"Banana":30,"Mango":40}
+fruit["Guava"]=50
+fruit1={"Apple":10,"Orange":20,"Banana":30,"Mango":40}
+fruit2={"Guava":50,"Kiwi":60}
+fruit1.update(fruit2)
+fruit.pop("Orange")
+x=fruit.keys()
+y=fruit.values()
+a=fruit.items()
+print(x)
+print(y)
+print(a)
+print(fruit1)
+print(fruit)
