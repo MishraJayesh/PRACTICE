@@ -1,0 +1,40 @@
+.body{
+    background-color: darkorange;
+}
+.h1{
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    font-style:normal;
+    padding: 20px;
+}
+.writeup{
+    font-size: 16px;
+    font-style:oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    background-color:chartreuse;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-indent: 2px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.poem{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: violet;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-indent: 2px;
+    margin: 10px;
+    border-radius: 20px;
+}
