@@ -15,6 +15,9 @@
     color:blue;
     background-color:chartreuse;
     padding: 10px;
+    overflow: scroll;
+    width: 70%;
+    height: 200px;
     text-align: center;
     text-align: justify;
     text-transform: uppercase;
@@ -24,11 +27,11 @@
     border-radius: 25px;
 }
 .poem{
-    font-size: 20px;
+    font-size: 40px;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Sofia", sans-serif;
     color: black;
-    background-color: violet;
+    background-color:violet;
     padding: 10px;
     text-align: center;
     text-align: justify;
