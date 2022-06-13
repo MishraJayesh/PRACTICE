@@ -1,5 +1,5 @@
-.body{
-    background-color: darkorange;
+.html{
+    background-color: darkkhaki;
 }
 .h1{
     color:white;
@@ -28,14 +28,28 @@
 }
 .img{
     border-radius: 50%;
+    border-color: blueviolet;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+.Imgbox{
+    background-color: greenyellow;
+    border: 6px solid saddlebrown;
+    width: 330px;
+    height: 325px;
 }
 .poem{
-    font-size: 40px;
+    font: size 28px;
     font-style: italic;
     font-family: "Sofia", sans-serif;
     color: black;
     background-color:violet;
     padding: 10px;
+    overflow: scroll;
+    width: 50%;
+    height: 200px;
     text-align: center;
     text-align: justify;
     text-transform: uppercase;
