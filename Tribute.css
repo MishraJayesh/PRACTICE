@@ -26,6 +26,9 @@
     margin: 10px;
     border-radius: 25px;
 }
+.img{
+    border-radius: 50%;
+}
 .poem{
     font-size: 40px;
     font-style: italic;
