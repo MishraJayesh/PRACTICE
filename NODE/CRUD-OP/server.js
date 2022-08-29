@@ -1,0 +1,14 @@
+const express = require('express');
+const app = express();
+const DBCON = require('./db');
+const VehiclesRoute = require('./routes/vehicles.route');
+const PORT = 8000;
+
+// Connecting To Database
+DBCON();
+
+app.use(express.json());
+
+app.use('/vehicles', VehiclesRoute);
+
+app.listen(PORT, console.log('Server Running On Port', PORT));
