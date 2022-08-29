@@ -3,10 +3,9 @@ const app = express();
 const DBCON = require('./db');
 const VehiclesRoute = require('./routes/vehicles.route');
 const PORT = 8000;
-
 // Connecting To Database
 DBCON();
-
+// Allowing JSON Objects
 app.use(express.json());
 
 app.use('/vehicles', VehiclesRoute);
