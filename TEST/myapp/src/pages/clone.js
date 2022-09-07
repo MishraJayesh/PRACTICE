@@ -22,10 +22,10 @@ function Clone() {
 									<a href="##"><MdHomeFilled/></a>
 								</li>
 								<li class="nav-item">
-									<a href="https://www.instagram.com/direct/inbox/general/?hl=en"><RiMessengerLine/></a>
+									<a href="https://www.instagram.com/direct/inbox/"><RiMessengerLine/></a>
 								</li>
 								<li class="nav-item">
-									<a href="https://www.instagram.com/explore/?hl=en"><AiOutlineCompass/></a>
+									<a href="https://www.instagram.com/explore/"><AiOutlineCompass/></a>
 								</li>
 								<li class="nav-item">
 									<a href="##"><AiOutlineHeart/></a>
