@@ -1,8 +1,8 @@
 import './clone.css';
-import {AiOutlineHeart, AiOutlineCompass, AiOutlineSearch} from "react-icons/ai";
+import { AiOutlineHeart, AiOutlineCompass, AiOutlineSearch } from "react-icons/ai";
 import { FaInstagramSquare }from "react-icons/fa";
 import { RiMessengerLine } from "react-icons/ri";
-import {MdHomeFilled} from "react-icons/md";
+import { MdHomeFilled } from "react-icons/md";
 
 function Clone() {
 	
@@ -42,8 +42,6 @@ function Clone() {
 					</div>
 				</nav>
 			</header>
-
-
 			<main>
 				<div class="container">
 					<div class="col-9">
@@ -442,11 +440,8 @@ function Clone() {
 								<a href="##"><h4 class="comments">View all 25 comments</h4></a>
 								<a href="##"><h5 class="postTime">9 hours ago</h5></a>
 								<div class="addComments">
-									<div class="reaction">
-										<h3><i class="fa fa-smile"></i></h3>
-									</div>
-									<input type="text" class="text" placeholder="Add a comment..." />
-									<a href="##">Post</a>
+									<div class="reaction"><h3><i class="fa fa-smile"></i></h3></div>
+									<input type="text" class="text" placeholder="Add a comment..." /><a href="##">Post</a>
 								</div>
 							</div>
 						</div>
