@@ -1,7 +1,7 @@
 const express = require('express');
 const myApp = express();
 const connectToDB = require('./db');
-const PORT = 6000;
+const PORT = 8000;
 const Usersrouter = require('./route/users.route');
 
 //Database Connecting
