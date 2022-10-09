@@ -1,9 +1,6 @@
 const UsersModel = require('../model/users.model');
-const JWT = require('../middelwares/jwt');
 
 async function usersPost(request, response) {
-    let token = request.body.token;
-    let tokenVerify = JWT.authenticateToken();
     let NewUsers = new UsersModel(request.body);
     try {
 

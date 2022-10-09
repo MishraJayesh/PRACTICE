@@ -10,7 +10,6 @@ connectToDB();
 //Allowing JSON Objects
 myApp.use(express.json());
 
-// myApp.use('/users/auth', require('./route'));
 myApp.use('/users',Usersrouter);
 
 myApp.listen(PORT, console.log("Server Is Running On Port",PORT));
