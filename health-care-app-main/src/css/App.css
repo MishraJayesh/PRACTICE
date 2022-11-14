@@ -3,22 +3,23 @@
   align-items: center;
   width: 90%;
 }
+
 .search {
   position: relative;
-  background-color: rgb(210, 207, 203) !important;
+  background-color: rgb(199 169 231) !important;;
   text-align: left;
-  color: #ffffff !important;
+  color: rgb(0, 0, 0);
   font-family: "Roboto";
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
   border-radius: 15px;
   border-width: 0px !important;
   width: 100vw;
 }
+
 .search-icon {
   position: absolute;
   right: 4rem;
@@ -30,13 +31,11 @@
 .discount-container {
   color: rgb(226, 215, 215);
   border-radius: 10px;
-
   width: 290px;
   height: 170px;
   margin: 10px;
   background-color: rgb(247, 70, 70);
 }
-
 
 .discount-container1 {
   display: flex;
@@ -58,13 +57,14 @@
   font-family: "Roboto";
   border-radius: 1rem;
   margin-right: 0.8rem;
+  cursor: pointer;
 }
+
 .percentage {
   background-color: rgb(47, 27, 67);
   width: 80px;
   display:flex;
   justify-content: space-between;
-  
   text-align:end;
   border-radius: 5px;
   color: aliceblue;

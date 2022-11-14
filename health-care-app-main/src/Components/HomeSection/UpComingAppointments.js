@@ -9,7 +9,7 @@ const UpComingAppointments = () => {
         <img
           src="https://t3.ftcdn.net/jpg/02/60/04/08/360_F_260040863_fYxB1SnrzgJ9AOkcT0hoe7IEFtsPiHAD.jpg"
           className="upcoming-appointment-image"
-          alt="upcoming-appointment-image"
+          alt="upcoming-appointment"
         />
         <div className="up-coming-appointments-container2">
           <h2> Dr.Albert Flores </h2>

@@ -8,6 +8,7 @@
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
 .header-container1 {
   display: flex;
   align-items: center;
@@ -21,6 +22,7 @@
   display: flex;
   justify-content: center;
 }
+
 .navbar {
   position: fixed;
   display: flex;
@@ -35,6 +37,7 @@
   bottom: 1rem;
   width: 80%;
 }
+
 .active-nav-icon {
   display: flex;
   justify-content: center;
