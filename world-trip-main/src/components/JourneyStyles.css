@@ -1,0 +1,46 @@
+.journey {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .journey-about {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .journey-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .journey-text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: ghostwhite;
+    font-family: "Times, serif";
+  }
+  .journey-text p {
+    font-size: 26px;
+    padding: 0.5rem 0.2rem 0;
+    color: white;
+    font-family: "Times, serif";
+  }
+  
+  @media screen and (max-width: 555px) {
+    .journey-text h1 {
+      padding: 10px, 20px;
+    }
+    .journey-text p {
+      font-size: 1.1rem;
+      padding: 0 0 2rem 0;
+    }
+    
+  }
+  
