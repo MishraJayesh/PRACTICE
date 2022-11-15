@@ -7,43 +7,6 @@
   padding-bottom: 16rem;
 }
 
-.blood-test {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: bisque;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 1.5rem;
-  font-weight: 600;
-  padding: 1rem;
-  border-radius: 15px;
-}
-
-.blood-test-container1 {
-  display: flex;
-  align-items: center;
-  color: orange;
-  font-size: 1.5rem;
-  font-family: "sans-serif";
-  text-align: left;
-}
-
-/* .blood-test-span {
-  background-color: white;
-  padding: 0.4rem;
-  display: flex;
-  align-items: center;
-  color: blue;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "Roboto";
-  border-radius: 1rem;
-  margin-right: 0.8rem;
-  cursor: pointer;
-} */
-
 .service-container {
   display: flex;
   flex-direction: row;
@@ -101,19 +64,6 @@
 .upcoming-appointment-image {
   width: 50%;
   height: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-  .blood-test {
-    font-size: 0.8rem;
-  }
-  .blood-test-container1 {
-    font-size: 0.8rem;
-  }
-
-  .blood-test-span {
-    font-size: 1rem;
-  }
 }
 
 .date-container {
