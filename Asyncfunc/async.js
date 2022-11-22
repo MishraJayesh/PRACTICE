@@ -19,7 +19,7 @@ function async(){
 console.log("Please Wait, Printing An Array");
 async();
 
-//Declaring setTimeout Function Outside The Function.
+// Declaring setTimeout Function Outside The Function.
 // Performing Arithmetic Operations.
 
 function arithmetic(){
