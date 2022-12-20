@@ -1,7 +1,7 @@
 import React from "react";
-import {Provider}  from "react-redux";
-import { legacy_createStore as createStore, legacy_createStore} from 'redux'
-import rootReducer from "./redux/reducers/index";
+import { Provider } from "react-redux";
+import { legacy_createStore as createStore, legacy_createStore } from 'redux'
+import rootReducer from "./reducers/index";
 import TodoList from "./components/todo.list";
 import TodoInput from "./components/todo.input";
 

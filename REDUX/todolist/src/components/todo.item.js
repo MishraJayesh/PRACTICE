@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteTodo, toggleTodo } from "../redux/actions/index";
+import { deleteTodo, toggleTodo } from "../actions/index";
 
 const TodoItem = ({ id, text, completed }) => {
   const dispatch = useDispatch();
@@ -28,7 +28,6 @@ const TodoItem = ({ id, text, completed }) => {
     >
       <h6>
         {text}
-
       </h6>
       <div className="todo-icon">
         <span className="mx-2 text-success">

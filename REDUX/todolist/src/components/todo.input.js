@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo } from "../redux/actions/index";
+import { addTodo } from "../actions/index";
 
 const TodoInput = () => {
   const [text, setText] = useState("");
@@ -22,7 +22,7 @@ const TodoInput = () => {
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <div className="input-group-prepend">
-            <div className="input-group-text bg-primary text-white">
+            <div className="input-group-text bg-primary text-white mx-2 my-2">
               <i className="fas fa-book" />
             </div>
           </div>

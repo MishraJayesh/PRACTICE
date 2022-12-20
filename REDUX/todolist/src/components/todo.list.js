@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import TodoItem from "./todo.item";
 import { useSelector, useDispatch } from "react-redux";
-import { clearTodoList } from "../redux/actions/index";
+import { clearTodoList } from "../actions/index";
 
 const TodoList = () => {
   const { list } = useSelector(state => state.todos);
@@ -14,7 +14,7 @@ const TodoList = () => {
   return (
     <div>
       <ul className="list-group my-5 border border-light">
-        <h3 className="text-capitalize text-center">JAYESH Todo list</h3>
+        <h3 className="text-capitalize text-center">Todo List</h3>
         {list.map(todo => (
           <TodoItem key={todo.id} {...todo} />
         ))}
