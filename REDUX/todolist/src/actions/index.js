@@ -7,19 +7,21 @@ import {
     TOGGLE_TODO
 } from "./actions.types";
 
-let count = 0;
-
-export const addCounter = () => {
-    return {
-        type: ADD_COUNTER,
-        count: ++count
+export const addCounter = (count) => {
+    return (dispatch) => {
+        dispatch({
+            type: ADD_COUNTER,
+            payload: count
+        })
     };
 };
 
-export const resetCounter = () => {
-    return {
-        type: RESET_COUNTER,
-        count: 0
+export const resetCounter = (count) => {
+    return (dispatch) => {
+        dispatch({
+            type: RESET_COUNTER,
+            payload: count
+        })
     };
 };
 

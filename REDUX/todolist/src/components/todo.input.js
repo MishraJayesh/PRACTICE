@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTodo } from "../actions/index";
 
@@ -39,7 +39,7 @@ const TodoInput = () => {
           className="btn btn-block btn-primary mt-3"
           onClick={handleSubmit}
         >
-          add item
+          Add Item
         </button>
       </form>
     </div>

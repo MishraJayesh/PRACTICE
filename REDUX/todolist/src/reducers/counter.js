@@ -1,22 +1,12 @@
 import { ADD_COUNTER, RESET_COUNTER } from "../actions/actions.types";
 
-const initalState = {
-    amount: 0,
-    name: "JAYESH"
-};
-
-const counter = (state = initalState, action) => {
-    switch (action.type) {
-        case ADD_COUNTER:
-            return {
-                amount: ++state.amount
-            };
-        case RESET_COUNTER:
-            return {
-                amount: action.count
-            };
-        default:
-            return state;
+const counter = (state = 0, action) => {
+    if (action.type === ADD_COUNTER) {
+        return state + action.payload;
+    } else if (action.type === RESET_COUNTER) {
+        return state.action;
+    } else {
+        return state;
     }
 };
 

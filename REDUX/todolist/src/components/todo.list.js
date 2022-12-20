@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import TodoItem from "./todo.item";
 import { useSelector, useDispatch } from "react-redux";
 import { clearTodoList } from "../actions/index";

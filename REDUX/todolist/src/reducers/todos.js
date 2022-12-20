@@ -6,7 +6,6 @@ import {
 } from "../actions/actions.types";
 
 const initalState = {
-    counter: 0,
     list: [{ id: 0, text: "Happy Writing", completed: false }]
 };
 
@@ -14,7 +13,6 @@ const todos = (state = initalState, action) => {
     switch (action.type) {
         case ADD_TODO:
             return {
-                counter: state.counter + 1,
                 list: [
                     ...state.list,
                     { id: state.counter + 1, text: action.text, completed: false }
