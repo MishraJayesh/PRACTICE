@@ -5,24 +5,6 @@ import {
     TOGGLE_TODO
 } from "./actions.types";
 
-// export const addCounter = count => {
-//     return (dispatch) => {
-//         dispatch({
-//             type: "add",
-//             payload: count
-//         });
-//     };
-// };
-
-// export const resetCounter = count => {
-//     return (dispatch) => {
-//         dispatch({
-//             type: "reset",
-//             payload: count
-//         });
-//     };
-// };
-
 export const addTodo = text => {
     return {
         type: ADD_TODO,
