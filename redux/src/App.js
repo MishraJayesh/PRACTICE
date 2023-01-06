@@ -1,6 +1,5 @@
 import { connect } from "react-redux";
 import { incrementCount, decrementCount, reset } from "./redux/action";
-import './App.css';
 
 function App({ count, myName, decreaseFunction, incrementFunction, reset }) {
   return (
