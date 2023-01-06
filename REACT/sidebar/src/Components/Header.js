@@ -2,7 +2,6 @@ import React from 'react';
 import logo from '../Components/Assets/logo.png';
 import './Header.css';
 
-
 const Header = () => {
     return (
         <div className="header">
