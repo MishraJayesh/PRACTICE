@@ -8,19 +8,19 @@
 // In React, we can add a ref attribute to an element to access it directly in the DOM.
 
 
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 
-function Test(){
-    const inputRef= useRef(0);      // Initializing useRef
-    function handleRef(){           // This function is actually for manipulating the DOM and its elements
-        console.log(inputRef,'handleRef');
+function Test() {
+    const inputRef = useRef(0);      // Initializing useRef
+    function handleRef() {           // This function is actually for manipulating the DOM and its elements
+        console.log(inputRef, 'handleRef');
         inputRef.current.focus();
         console.log(inputRef.current.value);
-        inputRef.current.style.color="white";
-        inputRef.current.style.borderRadius="10px";
-        inputRef.current.style.backgroundColor="darkcyan";
+        inputRef.current.style.color = "white";
+        inputRef.current.style.borderRadius = "10px";
+        inputRef.current.style.backgroundColor = "darkcyan";
     }
-    return(
+    return (
         <div>
             <input ref={inputRef} type="text" />            {/* Adding ref attribute for Accessing the element directly in DOM */}
             <button onClick={handleRef}>Click Here</button> {/* rendering the mutable component or object inputRef by onClick function */}
